@@ -6,6 +6,46 @@
 
 ## create project
 
+### create-nuxt-app
+
+```shell
+$ mkdir nuxt-first
+$ cd nuxt-first
+$ npx create-nuxt-app
+
+create-nuxt-app v4.0.0
+✨  Generating Nuxt.js project in .
+? Project name: nuxt-first
+? Programming language: JavaScript
+? Package manager: Npm
+? UI framework: Bootstrap Vue
+? Nuxt.js modules: Axios - Promise based HTTP client
+? Linting tools: ESLint
+? Testing framework: None
+? Rendering mode: Universal (SSR / SSG)
+? Deployment target: Server (Node.js hosting)
+? Development tools: jsconfig.json (Recommended for VS Code if you're not using typescript)
+? Continuous integration: None
+? Version control system: Git
+
+...
+
+
+Successfully created project nuxt-first
+
+  To get started:
+
+        npm run dev
+
+  To build & start for production:
+
+        npm run build
+        npm run start
+
+$ npm run dev
+```
+
+
 ```shell
 $ npm init
 This utility will walk you through creating a package.json file.
