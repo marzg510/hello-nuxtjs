@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-second",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marzg510/hello-nuxtjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marzg510/hello-nuxtjs/issues"
+  },
+  "homepage": "https://github.com/marzg510/hello-nuxtjs#readme",
+  "dependencies": {
+    "nuxt": "^2.15.8"
+  }
+}

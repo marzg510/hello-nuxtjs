@@ -45,8 +45,11 @@ Successfully created project nuxt-first
 $ npm run dev
 ```
 
+### nuxt-second
 
 ```shell
+$ mkdir nuxt-second
+$ cd nuxt-second
 $ npm init
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
@@ -99,10 +102,37 @@ npm install --save nuxt
 
 ```bash
 npm install -g @vue/cli
+npm install -g @vue/cli-init
+```
+
+### vue-cli
+
+```bash
+$ cd ..
+$ vue init nuxt-community/starter-template vue-cli
+
+? Project name vue-cli
+? Project description Nuxt.js project
+? Author Masaru Gotou <masaru.gotou@gmail.com>
+
+   vue-cli · Generated "vue-cli".
+
+   To get started:
+   
+     cd vue-cli
+     npm install # Or yarn
+     npm run dev
+
+$ cd vue-cli
+$ npm install
+$ npm run dev
 ```
 
 ## Run
 
+### vue-cli
+
 ```bash
-npm run dev
+nuxt build # <- コマンド 'nuxt' が見つかりません。もしかして:
+
 ```
