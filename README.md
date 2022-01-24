@@ -136,3 +136,13 @@ $ npm run dev
 nuxt build # <- コマンド 'nuxt' が見つかりません。もしかして:
 
 ```
+
+## Test
+
+### Jest
+
+https://engineer-ninaritai.com/nuxt-jest-install/#NuxtjsJest-2
+
+```bash
+npm i --savedev @vue/test-utils babel-core@^7.0.0-bridge.0 babel-jest jest vue-jest
+```
